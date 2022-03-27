@@ -9,13 +9,16 @@ html {
   font-family: "Comfortaa", sans-serif;
   font-size: 16px; }
   * body h1 {
-    font-size: 50px; }
+    font-size: 5rem; }
   * body h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #F2A154; }
+  * body h3 {
+    font-size: 2.5rem; }
   * body p {
-    font-size: 25px;
-    color: #314E52; }
+    font-size: 2.5rem;
+    color: #314E52;
+    text-align: center; }
     * body p::first-letter {
       text-transform: uppercase; }
   * body a {
@@ -90,5 +93,8 @@ main section .contenedor-sobre-mi {
     padding: 0; }
     main section .contenedor-sobre-mi p {
       width: 90%; } }
+.trabajos .contenido-trabajos .nombre-trabajo {
+  font-weight: bold;
+  color: #F2A154; }
 
 /*# sourceMappingURL=estilos.css.map */
