@@ -34,7 +34,9 @@ html {
 
 @media (max-width: 786px) {
   body {
-    font-size: 10px; }
+    font-size: 16px; }
+    body .contenedor {
+      width: 95%; }
     body h1 {
       font-size: 45px; }
     body h2 {
@@ -85,6 +87,8 @@ main section .contenedor-sobre-mi {
 @media (max-width: 768px) {
   main section .contenedor-sobre-mi {
     flex-direction: column;
-    padding: 0; } }
+    padding: 0; }
+    main section .contenedor-sobre-mi p {
+      width: 90%; } }
 
 /*# sourceMappingURL=estilos.css.map */
