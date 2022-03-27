@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+*:before, *:after {
+  box-sizing: inherit; }
+* body {
+  background-color: #F7F6E7;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px; }
+  * body h1 {
+    font-size: 5rem; }
+  * body h2 {
+    font-size: 3.5rem;
+    color: #F2A154; }
+  * body h3 {
+    font-size: 2.5rem; }
+  * body p {
+    font-size: 2.5rem;
+    color: #314E52;
+    text-align: center; }
+    * body p::first-letter {
+      text-transform: uppercase; }
+  * body a {
+    text-decoration: none; }
+  * body .contenedor {
+    width: 68.4027778%;
+    margin: 0 auto; }
+  * body .transition {
+    transition: color 0.5s ease; }
+  * body .transition:hover {
+    color: #F2A154; }
+  * body section {
+    border-bottom: 50px; }
+    * body section h2 {
+      text-align: center; }
+
+@media (max-width: 786px) {
+  body {
+    font-size: 16px; }
+    body .contenedor {
+      width: 95%; }
+    body h1 {
+      font-size: 45px; }
+    body h2 {
+      font-size: 30px;
+      color: #F2A154; }
+    body p {
+      font-size: 20px; } }
+header h1,
+header h2 {
+  text-align: center; }
+header h1 {
+  font-size: 35px; }
+header h2 {
+  font-size: 50px; }
+
+.navegacion {
+  background-color: #F2A154;
+  border-bottom: solid 2px #314E52;
+  margin-bottom: 50px; }
+  .navegacion .contenido-nav {
+    display: flex;
+    justify-content: space-evenly; }
+    .navegacion .contenido-nav a {
+      display: inline-block;
+      padding: 1.18rem;
+      font-size: 2.5rem;
+      color: #F7F6E7; }
+      .navegacion .contenido-nav a:hover {
+        color: #314E52; }
+
+@media (max-width: 375px) {
+  .navegacion .contenido-nav {
+    width: 100%; }
+    .navegacion .contenido-nav a {
+      font-size: 1.9rem; } }
+main section .contenedor-sobre-mi {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5rem; }
+  main section .contenedor-sobre-mi p {
+    width: 50%; }
+  main section .contenedor-sobre-mi img {
+    border-radius: 50%;
+    width: 30%; }
+
+@media (max-width: 768px) {
+  main section .contenedor-sobre-mi {
+    flex-direction: column;
+    padding: 0; }
+    main section .contenedor-sobre-mi p {
+      width: 90%; } }
+.trabajos .contenido-trabajos .nombre-trabajo {
+  font-weight: bold;
+  color: #F2A154; }
+
+/*# sourceMappingURL=estilos.css.map */
