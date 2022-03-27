@@ -1,0 +1,55 @@
+$azul-opaco: #314E52
+$blanco-arena: #F7F6E7
+$negro-smok: #0E0E0E
+$naranja-palido: #F2A154
+html
+    font-size: 62.5%
+    box-sizing: border-box
+*
+    &:before,
+    &:after
+        box-sizing: inherit
+
+    body
+        background-color: $blanco-arena
+        font-family: 'Comfortaa', sans-serif
+        font-size: 16px
+        h1
+            font-size: 50px
+            
+        h2
+            font-size: 35px
+            color: $naranja-palido
+        p
+            font-size: 25px
+            color: $azul-opaco
+            &::first-letter
+                text-transform: uppercase
+        a
+            text-decoration: none
+        .contenedor
+            width: 68.4027778%
+            margin: 0 auto
+            // background-color: #998545
+        .transition
+            transition: color .5s ease
+        span
+        .transition
+            &:hover
+                color: $naranja-palido
+        section
+            border-bottom: 50px
+            h2
+                text-align: center
+@media (max-width: 786px)
+    body
+        font-size: 10px
+        h1
+            font-size: 45px
+            
+        h2
+            font-size: 30px
+            color: $naranja-palido
+        p
+            font-size: 20px
+@import header-nav
